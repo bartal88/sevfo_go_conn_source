@@ -39,8 +39,6 @@ func Connect(config Config) (*DB, error) {
 		config.Database,
 	)
 
-	fmt.Println(dsn)
-
 	var counts int64
 	for {
 		connection, err := openDB(dsn)
