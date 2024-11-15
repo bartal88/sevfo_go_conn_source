@@ -1,4 +1,4 @@
-module sev.fo/conn/db_conn_mssql_source
+module github.com/bartal88/sevfo_go_conn_source
 
 go 1.23.2
 
