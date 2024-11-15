@@ -72,6 +72,7 @@ func Connect(config Config) (*DB, error) {
 	)
 
 	println(dsn)
+	println(dsn)
 
 	var retryCount int64
 	for {
