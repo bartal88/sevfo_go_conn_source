@@ -71,6 +71,8 @@ func Connect(config Config) (*DB, error) {
 		config.Database,
 	)
 
+	println(dsn)
+
 	var retryCount int64
 	for {
 		// Attempt to open the database connection
